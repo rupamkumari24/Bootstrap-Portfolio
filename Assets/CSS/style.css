@@ -1,0 +1,108 @@
+body{
+background: url("../images/concrete_seamless.png");
+font-family: Georgia;
+		font-size: 18px;
+		color: #808080;
+
+}
+
+#ContentDiv{
+		background-color: #fff;
+		border: 2px solid #ddd;
+}
+
+#ProfileImg{
+	margin-bottom: 20px;
+}
+
+#socialDiv{
+	text-align: center; 
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.socialImg {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+
+}
+
+.socialImg:last-child {
+  margin-right: 0;
+}
+
+#footer{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+#footerImg{
+
+	height:10px;
+	width:10px;
+}
+
+/* Contact Page */
+
+#contentChange
+		{
+			margin-left: 25px;
+			margin-right:25px; 
+			margin-bottom: 20px;
+		}
+
+		input,textarea
+		{
+			width: 98%;
+		}
+
+		textarea
+		{
+			height: 100px;
+		}
+
+/* Portfolio Page */
+
+#contentPortfolio{
+
+	margin-left: 25px;
+	margin-right:25px; 
+	margin-bottom: 20px;
+}
+
+.portfolio {
+  position: relative;
+  float: left;
+  width: 220px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.portfolio img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.portfolio h4 {
+  position: absolute;
+  bottom: 10px;
+  width: 86%;
+  padding: 10px;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  border-bottom: 0;
+}
+
+.PortfolioImg{
+	height: 140px;
+	width: 140px;
+}
